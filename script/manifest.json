@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome脚本",
+  "version": "1.0",
+  "description": "chrome 脚本",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:63340/test/html%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2.html?_ijt=1q1hotc2uqn4v631d245jpfa43"],
+      "js": ["script.js"]
+    }
+  ]
+}
